@@ -1,0 +1,83 @@
+
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+ }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  }
+
+body {
+  padding: 5em 1em;
+  
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  }
+
+
+
+h1 {
+  text-align: center;
+  font-size: 275%;
+  font-family: 'Covered By Your Grace', cursive;
+  font-weight: 300;
+  margin-top: -1em;
+  text-shadow: 0 2px 1px white;
+  }
+
+#box {
+  margin: auto;
+  width: 50em;
+  @media all and (max-width: 52em) {
+    width: 100%;
+    }
+  height: 100%;
+  white-space: nowrap;
+  }
+#center {
+  vertical-align: middle;
+  display: inline-block;
+  white-space: normal;
+  }
+#box:after {
+  content: "";
+  width: 1px;
+  height: 100%;
+  vertical-align: middle;
+  display: inline-block;
+  margin-right: -10px;
+  }
+
+table {
+  background-color: white;
+  padding: 1em;
+  
+    }
+  th {
+    text-transform: uppercase;
+    font-weight: 300;
+    text-align: center;
+    color: white;
+    background-color: green;
+    position: relative;
+    
+  }
+
+#credits {
+  text-align: right;
+  color: white;
+  
+  }
+p{
+  text-align: center;
+  font-size: 275%;
+  font-family: 'Covered By Your Grace', cursive;
+  font-weight: 300;
+  margin-top: -1em;
+  text-shadow: 0 2px 1px white;
+}
